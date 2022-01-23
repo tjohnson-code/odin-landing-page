@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 
 }
 .links {
@@ -28,23 +29,39 @@ a {
 }
 .main {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .info {
-    display: flex;
-    flex-direction: column;
+align-self: flex-start;
+margin: 25px;
+padding-right: 40px;
+}
+h1 {
+    margin: 0;
+}
+.tbutton {
+    padding-top: 10px;
 }
 .titlebutton {
     background-color: rgba(255, 115, 0, 0.863);
+    border-radius: 25px;
+    text-align: center;
     color: white;
+    width: 125px;
+    height: 75px;
+}
+.testimage {
+    width: 500px;
+    height: 200px;
 }
 .midcontainer {
     display: flex;
     justify-content: center;
     padding: 0 225px 75px 225px;
 }
-.boxes {
+.boximages {
     display: flex;
-    flex-direction: row;
 }
 .mid2container {
     background-color:rgba(167, 168, 175, 0.863);
