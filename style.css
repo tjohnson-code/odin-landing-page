@@ -19,6 +19,7 @@ body {
 
 }
 .links {
+    font-weight: 600;
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -38,6 +39,7 @@ margin: 25px;
 padding-right: 40px;
 }
 h1 {
+    font-size: 48px;
     margin: 0;
 }
 .tbutton {
@@ -91,35 +93,40 @@ h1 {
 }
 .botcontainer {
     background-color: white;
-    display: flex;
-    justify-content: center;
-    padding: 75px;
+    padding: 75px 225px 75px 225px;
+    justify-content: space-around;
 }
 .ctacontainer {
-    background-color: #395a88;
+    background-color:rgba(255, 115, 0, 0.863);
+    border-radius: 10px;
     display: flex;
-    width: 750px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
 }
 .cta {
     display: flex;
     flex-direction: column;
+    color: white;
 }
-.cta > h4 {
+.cta > h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
-.ctabutton {
-    display: flex;
-    justify-content: flex-end;
-}
 .botbutton {
-    /* background-color:rgba(255, 115, 0, 0.863);
-    color: #395a88; */
+    background-color: rgba(255, 115, 0, 0.863);
+    border-radius: 15px;
+    border: white solid 2px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    width: 125px;
+    height: 75px;
 }
 .footer {
     background-color: #395a88;
     color: white;
     display: flex;
     justify-content: center;
-    padding: 25px 225px 25px 225px;
+    padding: 50px;
 }
